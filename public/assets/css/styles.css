@@ -1,3 +1,10 @@
 .devour-btn {
 	color: red;
 }
+
+#background-img {
+	position: fixed;
+	background-position: center;
+	/*margin: 0px auto;*/
+	z-index: -1;
+}
