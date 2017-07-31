@@ -1,6 +1,10 @@
-<!-- <div id="background-img">
-  <img src="assets/images/burgerlogo.jpg" alt="Burger logo">
-</div> -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-4">
+      <img src="assets/images/burgerlogo.jpg" alt="Burger logo" id="background-img">
+    </div>
+  </div>
+</div>
 
 <header class="container">
   <div class="row">
@@ -18,7 +22,7 @@
         {{#each burger}}
           {{#unless this.devoured}}
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 burgers">
                 {{this.id}}. {{this.burger_name}}
             </div>
             <div class="col-md-4">
@@ -34,16 +38,14 @@
 
     <div class="col-md-4">
       <h2>Burgers Eaten</h2>
-      <!-- <ul> -->
         {{#each burger}}
           {{#if this.devoured}}
-            <!-- <li> -->
+            <div class="burgers">
               {{this.id}}. {{this.burger_name}}
               <br>
-            <!-- </li> -->
+            </div>
           {{/if}}
         {{/each}}
-      <!-- </ul> -->
     </div>
   </div>
 </div>

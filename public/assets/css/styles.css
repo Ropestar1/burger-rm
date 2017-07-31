@@ -1,10 +1,21 @@
+body {
+	background-color: #efe8e2;
+}
+
 .devour-btn {
-	color: red;
+	color: orange;
+	background-color: gray;
+	height: 30px;
+	width: 150px;
+	margin-top: 12px;
 }
 
 #background-img {
-	position: fixed;
-	background-position: center;
-	/*margin: 0px auto;*/
-	z-index: -1;
+	height: 325px;
+}
+
+.burgers {
+	font-size: 24px;
+	background-color: orange;
+	margin-top: 12px;
 }
